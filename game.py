@@ -20,7 +20,6 @@ while lives > 0:
         print("Incorrect!")
         lives -= 1
         print("wrong guess")
-    #shows number of lives left
     print("lives left:", lives)
     if "_" not in display_word:
         print("Congratulations! You guessed the word:", secret_word)
